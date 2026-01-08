@@ -1,39 +1,58 @@
-<h1 align="center">Hi 👋, I'm Pranav Attarde</h1>
-<h3 align="center">Engineering Student | Web & UI/UX Developer</h3>
+<h1 align="center">Pranav Attarde</h1>
+<h3 align="center">
+Engineering Student | Web & UI/UX Developer | Open to Internships, Hackathons & Freelance Work
+</h3>
 
 ---
 
-### 👨‍💻 About Me
-- 🎓 Second-year engineering student at Vishwakarma Institute of Information Technology, Pune  
-- 💻 Passionate about Web Development, UI/UX, and building interactive digital experiences  
-- 🚀 Campus Ambassador at College Rivals  
-- 🧠 Interested in combining design, logic, and technology to solve real-world problems  
+### About 🚀
+Engineering student at Vishwakarma Institute of Information Technology, Pune, with a strong interest in **web development, UI/UX, and building practical technology solutions**. Actively learning by working on projects, hackathons, and hands-on implementations rather than just theory.
+
+💻 Experience includes building responsive websites, experimenting with frontend frameworks, and working on data-driven and ML-based concepts at a foundational level.  
+🤝 Also involved in campus-level initiatives and representation, helping develop communication, teamwork, and execution skills alongside technical growth.
+
+This GitHub serves as a **living portfolio** — documenting projects, experiments, and continuous learning, and is open to **internship, placement, hackathon, and freelance opportunities**.
 
 ---
 
-### 🛠️ Tech Stack
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,figma" />
-</p>
+### Technical Skills 🛠️
+
+**Programming Languages**  
+Java · Python · C++ · JavaScript  
+
+**Web & Backend**  
+HTML · CSS · React.js · Node.js · Express.js · Vue.js · REST APIs  
+
+**Databases**  
+MySQL · MongoDB · PostgreSQL · SQLite  
+
+**AI / ML & Data**  
+NumPy · Pandas · Scikit-learn · ML Model Building  
+
+**Tools & Platforms**  
+Git · GitHub · AWS · Postman · Power BI · Figma  
+
+**Core Concepts**  
+OOP · Data Structures & Algorithms · DBMS · Operating Systems  
 
 ---
 
-### 📌 Featured Projects
+### Selected Projects 📌
 - 🌐 **Personal Portfolio Website**  
-  Interactive and responsive portfolio showcasing my work and projects  
+  Interactive and responsive portfolio showcasing projects and skills  
   🔗 https://your-portfolio-link  
 
-- 🏆 **BugWizards – Hackathon Project**  
-  Collaborative problem-solving project developed during GeekVishwa  
+- 🏆 **BugWizards – GeekVishwa Hackathon**  
+  Team-based hackathon project focused on problem-solving and rapid development  
   🔗 https://github.com/Pranav722/BugWizards-GeekVishwa-Repo  
 
 - 🏫 **LS Reborn Website**  
-  Website project built for a real student initiative  
+  Web project built for a student initiative with focus on UI and responsiveness  
   🔗 https://github.com/Pranav722/lsreborn-project  
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Activity 📊
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Pranav722&show_icons=true&theme=tokyonight" />
 </p>
@@ -44,8 +63,8 @@
 
 ---
 
-### 🔗 Connect With Me
-- 🌐 Portfolio: 
+### Connect 🔗
+- 🌐 Portfolio: https://your-portfolio-link  
 - 💼 LinkedIn: https://www.linkedin.com/in/pranav-attarde/  
 - 📧 Email: pranavattarde722@gmail.com
 <!--
