@@ -61,11 +61,9 @@ This GitHub serves as a **living portfolio**, documenting ongoing projects, expe
 ## 📌 Selected Work
 - 🌐 **Personal Portfolio Website**  
   Responsive portfolio showcasing projects and technical growth  
-  🔗 https://your-portfolio-link  
+  🔗 
 
-- 🏆 **BugWizards – GeekVishwa Hackathon**  
-  Team-based hackathon project focused on rapid problem-solving  
-  🔗 https://github.com/Pranav722/BugWizards-GeekVishwa-Repo  
+
 
 - 🏫 **LS Reborn Website**  
   Website built for a student initiative with focus on UI and responsiveness  
