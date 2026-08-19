@@ -1,0 +1,120 @@
+<svg width="100%" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0d12"/>
+      <stop offset="100%" stop-color="#12161d"/>
+    </linearGradient>
+    <linearGradient id="trackFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0d12" stop-opacity="1"/>
+      <stop offset="8%" stop-color="#0a0d12" stop-opacity="0"/>
+      <stop offset="92%" stop-color="#0a0d12" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a0d12" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="lightGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff3b3b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff3b3b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="900" height="220" fill="url(#bgGrad)"/>
+
+  <!-- faint grid texture lines -->
+  <g stroke="#1c2129" stroke-width="1">
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+  </g>
+
+  <!-- track -->
+  <rect x="0" y="150" width="900" height="52" fill="#14181f"/>
+  <line x1="0" y1="176" x2="900" y2="176" stroke="#2a3038" stroke-width="2" stroke-dasharray="18 14"/>
+
+  <!-- start gantry -->
+  <rect x="430" y="20" width="6" height="46" fill="#3a4048"/>
+  <rect x="360" y="16" width="180" height="10" rx="2" fill="#3a4048"/>
+
+  <!-- Five F1 start lights -->
+  <g id="lights">
+    <g transform="translate(390,34)">
+      <circle r="14" fill="url(#lightGlow)" opacity="0"><animate id="g1" attributeName="opacity" begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.001;0.422;0.423;1" values="0;0.9;0.9;0;0"/></circle>
+      <circle r="8" fill="#2b0d0d" stroke="#050505" stroke-width="1.5">
+        <animate attributeName="fill" begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.001;0.422;0.423;1" values="#2b0d0d;#ff3232;#ff3232;#2b0d0d;#2b0d0d"/>
+      </circle>
+    </g>
+    <g transform="translate(415,34)">
+      <circle r="14" fill="url(#lightGlow)" opacity="0"><animate begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.044;0.045;0.422;0.423;1" values="0;0;0.9;0.9;0;0"/></circle>
+      <circle r="8" fill="#2b0d0d" stroke="#050505" stroke-width="1.5">
+        <animate attributeName="fill" begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.044;0.045;0.422;0.423;1" values="#2b0d0d;#2b0d0d;#ff3232;#ff3232;#2b0d0d;#2b0d0d"/>
+      </circle>
+    </g>
+    <g transform="translate(440,34)">
+      <circle r="14" fill="url(#lightGlow)" opacity="0"><animate begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.089;0.09;0.422;0.423;1" values="0;0;0.9;0.9;0;0"/></circle>
+      <circle r="8" fill="#2b0d0d" stroke="#050505" stroke-width="1.5">
+        <animate attributeName="fill" begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.089;0.09;0.422;0.423;1" values="#2b0d0d;#2b0d0d;#ff3232;#ff3232;#2b0d0d;#2b0d0d"/>
+      </circle>
+    </g>
+    <g transform="translate(465,34)">
+      <circle r="14" fill="url(#lightGlow)" opacity="0"><animate begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.133;0.134;0.422;0.423;1" values="0;0;0.9;0.9;0;0"/></circle>
+      <circle r="8" fill="#2b0d0d" stroke="#050505" stroke-width="1.5">
+        <animate attributeName="fill" begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.133;0.134;0.422;0.423;1" values="#2b0d0d;#2b0d0d;#ff3232;#ff3232;#2b0d0d;#2b0d0d"/>
+      </circle>
+    </g>
+    <g transform="translate(490,34)">
+      <circle r="14" fill="url(#lightGlow)" opacity="0"><animate begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.178;0.179;0.422;0.423;1" values="0;0;0.9;0.9;0;0"/></circle>
+      <circle r="8" fill="#2b0d0d" stroke="#050505" stroke-width="1.5">
+        <animate attributeName="fill" begin="0s" dur="9s" repeatCount="indefinite" keyTimes="0;0.178;0.179;0.422;0.423;1" values="#2b0d0d;#2b0d0d;#ff3232;#ff3232;#2b0d0d;#2b0d0d"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Cars: simple minimalist non-branded F1 silhouettes, 3 lanes -->
+  <g id="cars">
+    <!-- Car 1 -->
+    <g transform="translate(-150,160)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" begin="0s" dur="9s" repeatCount="indefinite"
+        keyTimes="0;0.422;0.68;1" values="0,0;0,0;1200,0;1200,0"/>
+      <g>
+        <ellipse cx="8" cy="10" rx="34" ry="7" fill="#e6482e"/>
+        <path d="M -22 10 Q -30 -2 -6 -4 L 24 -4 Q 40 -4 46 8 L 46 12 L -22 12 Z" fill="#e6482e"/>
+        <rect x="-2" y="-9" width="20" height="8" rx="2" fill="#c93a22"/>
+        <rect x="36" y="4" width="6" height="12" fill="#20232a"/>
+        <circle cx="-14" cy="13" r="6" fill="#111"/>
+        <circle cx="30" cy="13" r="6" fill="#111"/>
+      </g>
+    </g>
+    <!-- Car 2 -->
+    <g transform="translate(-190,178)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" begin="0s" dur="9s" repeatCount="indefinite"
+        keyTimes="0;0.435;0.69;1" values="0,0;0,0;1200,0;1200,0"/>
+      <g>
+        <ellipse cx="8" cy="10" rx="34" ry="7" fill="#2ea3c9"/>
+        <path d="M -22 10 Q -30 -2 -6 -4 L 24 -4 Q 40 -4 46 8 L 46 12 L -22 12 Z" fill="#2ea3c9"/>
+        <rect x="-2" y="-9" width="20" height="8" rx="2" fill="#2489ab"/>
+        <rect x="36" y="4" width="6" height="12" fill="#1a1d22"/>
+        <circle cx="-14" cy="13" r="6" fill="#111"/>
+        <circle cx="30" cy="13" r="6" fill="#111"/>
+      </g>
+    </g>
+    <!-- Car 3 -->
+    <g transform="translate(-230,196)">
+      <animateTransform attributeName="transform" type="translate" additive="sum" begin="0s" dur="9s" repeatCount="indefinite"
+        keyTimes="0;0.448;0.7;1" values="0,0;0,0;1200,0;1200,0"/>
+      <g>
+        <ellipse cx="8" cy="10" rx="34" ry="7" fill="#d8d8d8"/>
+        <path d="M -22 10 Q -30 -2 -6 -4 L 24 -4 Q 40 -4 46 8 L 46 12 L -22 12 Z" fill="#d8d8d8"/>
+        <rect x="-2" y="-9" width="20" height="8" rx="2" fill="#b8b8b8"/>
+        <rect x="36" y="4" width="6" height="12" fill="#2a2d33"/>
+        <circle cx="-14" cy="13" r="6" fill="#111"/>
+        <circle cx="30" cy="13" r="6" fill="#111"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- edge fade so cars don't hard-clip -->
+  <rect x="0" y="0" width="900" height="220" fill="url(#trackFade)"/>
+
+  <!-- driver-board style name plate -->
+  <g transform="translate(450,205)" text-anchor="middle">
+    <text x="0" y="0" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="4" fill="#5a6270">P. ATTARDE — GRID READY</text>
+  </g>
+</svg>
