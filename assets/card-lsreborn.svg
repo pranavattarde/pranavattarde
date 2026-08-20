@@ -1,0 +1,53 @@
+<svg width="100%" viewBox="0 0 430 250" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardbg-card-lsreborn" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#12161d"/>
+    <stop offset="100%" stop-color="#0c0f14"/>
+  </linearGradient>
+  <linearGradient id="border-card-lsreborn" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#a06fd6" stop-opacity="0.9"/>
+    <stop offset="45%" stop-color="#2a323d" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#a06fd6" stop-opacity="0.35"/>
+  </linearGradient>
+  <filter id="shadow-card-lsreborn" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.55"/>
+  </filter>
+  <linearGradient id="shine-card-lsreborn" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#a06fd6" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#a06fd6" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#a06fd6" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="clip-card-lsreborn"><rect x="1" y="1" width="428" height="248" rx="14"/></clipPath>
+</defs>
+<rect x="6" y="10" width="418" height="236" rx="14" fill="#000" opacity="0.001" filter="url(#shadow-card-lsreborn)"/>
+<rect x="0.5" y="0.5" width="429" height="249" rx="15" fill="url(#border-card-lsreborn)"/>
+<rect x="2" y="2" width="426" height="246" rx="13" fill="url(#cardbg-card-lsreborn)"/>
+<g clip-path="url(#clip-card-lsreborn)">
+<rect x="-160" y="0" width="160" height="3" fill="url(#shine-card-lsreborn)">
+<animate attributeName="x" begin="0s" dur="5s" repeatCount="indefinite" values="-160;430;-160"/>
+</rect>
+<circle cx="38" cy="40" r="20" fill="#a06fd6" opacity="0.12"/>
+<text x="38" y="48" text-anchor="middle" font-size="20">🎮</text>
+<text x="70" y="36" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="21" fill="#eef1f5">LS-Reborn Portal</text>
+<rect x="70" y="44" width="68" height="18" rx="9" fill="#42e070" opacity="0.15"/>
+<circle cx="82" cy="53" r="3" fill="#42e070"/>
+<text x="90" y="57" font-family="Consolas, monospace" font-size="10.5" fill="#42e070" font-weight="700">LIVE</text>
+<text x="24" y="85" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#a7afbb">Full-stack community platform automating player</text>
+<text x="24" y="104" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#a7afbb">onboarding and access control.</text>
+<line x1="24" y1="125" x2="406" y2="125" stroke="#242a33" stroke-width="1"/>
+<circle cx="28" cy="143" r="2.5" fill="#a06fd6"/>
+<text x="38" y="147" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#c3c9d3">Discord OAuth2 + JWT-based RBAC, 3 roles</text>
+<circle cx="28" cy="165" r="2.5" fill="#a06fd6"/>
+<text x="38" y="169" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#c3c9d3">AI applicant scoring + duplicate-ticket detection</text>
+<rect x="24" y="216" width="54.0" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="51.0" y="231" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">React</text>
+<rect x="86.0" y="216" width="68.4" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="120.2" y="231" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Node.js</text>
+<rect x="162.4" y="216" width="54.0" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="189.4" y="231" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">MySQL</text>
+<rect x="224.4" y="216" width="97.2" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="273.0" y="231" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Discord API</text>
+<rect x="329.6" y="216" width="61.2" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="360.20000000000005" y="231" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Python</text>
+</g>
+</svg>
