@@ -1,0 +1,124 @@
+<svg width="100%" viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="telbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#12161d"/>
+    <stop offset="100%" stop-color="#0b0e13"/>
+  </linearGradient>
+  <linearGradient id="telshine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#42e070" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#42e070" stop-opacity="0.85"/>
+    <stop offset="100%" stop-color="#42e070" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="barGrad" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0%" stop-color="#1a6b3a"/>
+    <stop offset="100%" stop-color="#42e070"/>
+  </linearGradient>
+  <radialGradient id="pulseGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#42e070" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#42e070" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect x="1" y="1" width="898" height="338" rx="14" fill="url(#telbg)" stroke="#242a33" stroke-width="1"/>
+<rect x="-220" y="0" width="220" height="3" fill="url(#telshine)"><animate attributeName="x" begin="0s" dur="6s" repeatCount="indefinite" values="-220;900;-220"/></rect>
+<text x="24" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="17" fill="#eef1f5">Telemetry</text>
+<text x="24" y="48" font-family="Consolas, monospace" font-size="10.5" fill="#5a6270">LIVE GITHUB ACTIVITY — REAL DATA</text>
+<line x1="24" y1="56" x2="876" y2="56" stroke="#242a33"/>
+<text x="24" y="74" font-family="Consolas, monospace" font-size="10" fill="#5a6270">WEEKLY ACTIVITY — LAST 16 WEEKS</text>
+<line x1="24" y1="212" x2="544" y2="212" stroke="#242a33"/>
+<g transform="translate(24.0,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.0s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-4.0" width="26.9" height="4.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(56.9,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.09s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-30.0" width="26.9" height="30.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(89.8,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.18s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-10.0" width="26.9" height="10.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(122.6,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.27s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-4.0" width="26.9" height="4.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(155.5,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.36s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-4.0" width="26.9" height="4.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(188.4,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.45s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-90.0" width="26.9" height="90.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(221.2,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.54s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-110.0" width="26.9" height="110.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(254.1,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.63s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-70.0" width="26.9" height="70.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(287.0,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.72s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-100.0" width="26.9" height="100.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(319.9,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.81s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-130.0" width="26.9" height="130.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(352.8,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.9s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-110.0" width="26.9" height="110.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(385.6,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="0.99s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-4.0" width="26.9" height="4.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(418.5,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.08s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-20.0" width="26.9" height="20.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(451.4,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.17s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-130.0" width="26.9" height="130.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(484.2,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.26s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-30.0" width="26.9" height="30.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<g transform="translate(517.1,212)">
+<animateTransform attributeName="transform" type="scale" additive="sum" begin="1.35s" dur="2.6s" repeatCount="indefinite" values="1,1;1,0.82;1,1" keyTimes="0;0.5;1"/>
+<rect x="0" y="-20.0" width="26.9" height="20.0" rx="2" fill="url(#barGrad)"/>
+</g>
+<circle cx="615" cy="130" r="42" fill="none" stroke="#1c2129" stroke-width="9"/>
+<g transform="rotate(-90 615 130)">
+<circle cx="615" cy="130" r="42" fill="none" stroke="#6FA9C2" stroke-width="9" stroke-linecap="round" stroke-dasharray="68.12 195.77">
+<animate attributeName="stroke-dashoffset" begin="0s" dur="7s" repeatCount="indefinite" values="0;263.89" />
+</circle>
+</g>
+<text x="615" y="136" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#6FA9C2">25%</text>
+<text x="615" y="194" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b93a1">ACTIVE DAYS</text>
+<circle cx="740" cy="130" r="42" fill="none" stroke="#1c2129" stroke-width="9"/>
+<g transform="rotate(-90 740 130)">
+<circle cx="740" cy="130" r="42" fill="none" stroke="#e6482e" stroke-width="9" stroke-linecap="round" stroke-dasharray="175.93 87.96">
+<animate attributeName="stroke-dashoffset" begin="0s" dur="7s" repeatCount="indefinite" values="0;263.89" />
+</circle>
+</g>
+<text x="740" y="136" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#e6482e">40</text>
+<text x="740" y="194" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#8b93a1">LONGEST STREAK</text>
+<line x1="24" y1="236" x2="876" y2="236" stroke="#242a33"/>
+<circle cx="130.5" cy="270" r="26" fill="url(#pulseGlow)"><animate attributeName="opacity" begin="0.0s" dur="2.4s" repeatCount="indefinite" values="0.3;0.9;0.3"/></circle>
+<text x="130.5" y="278" text-anchor="middle" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#42e070">409</text>
+<text x="130.5" y="312" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b93a1">TOTAL CONTRIBUTIONS</text>
+<line x1="237.0" y1="248" x2="237.0" y2="316" stroke="#242a33"/>
+<circle cx="343.5" cy="270" r="26" fill="url(#pulseGlow)"><animate attributeName="opacity" begin="0.4s" dur="2.4s" repeatCount="indefinite" values="0.3;0.9;0.3"/></circle>
+<text x="343.5" y="278" text-anchor="middle" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#6FA9C2">12</text>
+<text x="343.5" y="312" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b93a1">PUBLIC REPOSITORIES</text>
+<line x1="450.0" y1="248" x2="450.0" y2="316" stroke="#242a33"/>
+<circle cx="556.5" cy="270" r="26" fill="url(#pulseGlow)"><animate attributeName="opacity" begin="0.8s" dur="2.4s" repeatCount="indefinite" values="0.3;0.9;0.3"/></circle>
+<text x="556.5" y="278" text-anchor="middle" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#d8b355">53</text>
+<text x="556.5" y="312" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b93a1">WEEKS TRACKED</text>
+<line x1="663.0" y1="248" x2="663.0" y2="316" stroke="#242a33"/>
+<circle cx="769.5" cy="270" r="26" fill="url(#pulseGlow)"><animate attributeName="opacity" begin="1.2000000000000002s" dur="2.4s" repeatCount="indefinite" values="0.3;0.9;0.3"/></circle>
+<text x="769.5" y="278" text-anchor="middle" font-family="Consolas, monospace" font-size="24" font-weight="700" fill="#a06fd6">1</text>
+<text x="769.5" y="312" text-anchor="middle" font-family="Consolas, monospace" font-size="9" fill="#8b93a1">CURRENT STREAK (DAYS)</text>
+</svg>

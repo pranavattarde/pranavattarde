@@ -1,0 +1,71 @@
+<svg width="100%" viewBox="0 0 440 296" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardbg-card-pancred" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#12161d"/>
+    <stop offset="100%" stop-color="#0b0e13"/>
+  </linearGradient>
+  <linearGradient id="border-card-pancred" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#2ea3c9" stop-opacity="0.95"/>
+    <stop offset="45%" stop-color="#2a323d" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#2ea3c9" stop-opacity="0.4"/>
+  </linearGradient>
+  <filter id="shadow-card-pancred" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.55"/>
+  </filter>
+  <linearGradient id="shine-card-pancred" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#2ea3c9" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#2ea3c9" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#2ea3c9" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots-card-pancred" width="16" height="16" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.7" fill="#2ea3c9" opacity="0.35"/>
+  </pattern>
+  <clipPath id="clip-card-pancred"><rect x="1" y="1" width="438" height="294" rx="16"/></clipPath>
+</defs>
+<rect x="6" y="10" width="428" height="282" rx="16" fill="#000" opacity="0.001" filter="url(#shadow-card-pancred)"/>
+<rect x="0.5" y="0.5" width="439" height="295" rx="17" fill="url(#border-card-pancred)"/>
+<rect x="2" y="2" width="436" height="292" rx="15" fill="url(#cardbg-card-pancred)"/>
+<g clip-path="url(#clip-card-pancred)">
+<rect x="0" y="0" width="440" height="296" fill="url(#dots-card-pancred)" opacity="0.5"/>
+<rect x="-180" y="0" width="180" height="3" fill="url(#shine-card-pancred)">
+<animate attributeName="x" begin="0s" dur="5s" repeatCount="indefinite" values="-180;440;-180"/>
+</rect>
+<circle cx="24" cy="24" r="24" fill="#2ea3c9" opacity="0.1" transform="translate(20,20)"/>
+<g transform="translate(24,24)">
+  <path d="M 0 -14 L 13 -8 L 13 4 Q 13 14 0 18 Q -13 14 -13 4 L -13 -8 Z" fill="none" stroke="#2ea3c9" stroke-width="2.2"/>
+  <path d="M -5 1 L -1.5 5 L 6 -4" fill="none" stroke="#2ea3c9" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="80" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" fill="#eef1f5">PanCred</text>
+<rect x="80" y="46" width="68.0" height="18" rx="9" fill="#42e070" opacity="0.15"/>
+<circle cx="93" cy="55" r="3" fill="#42e070"/>
+<text x="101" y="59" font-family="Consolas, monospace" font-size="10.5" fill="#42e070" font-weight="700">LIVE</text>
+<text x="24" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#a7afbb">Decentralized microfinance platform — P2P lending,</text>
+<text x="24" y="109" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#a7afbb">EMI tracking, on-chain repayment validation.</text>
+<rect x="24" y="140" width="95.8" height="26" rx="6" fill="#161b22" stroke="#2ea3c9" stroke-width="1" stroke-opacity="0.4"/>
+<text x="34" y="157" font-family="Consolas, monospace" font-size="11.5" fill="#2ea3c9" font-weight="700">3</text>
+<text x="48.6" y="157" font-family="Consolas, monospace" font-size="10" fill="#8b93a1">MODULES</text>
+<rect x="127.8" y="140" width="112.19999999999999" height="26" rx="6" fill="#161b22" stroke="#2ea3c9" stroke-width="1" stroke-opacity="0.4"/>
+<text x="137.8" y="157" font-family="Consolas, monospace" font-size="11.5" fill="#2ea3c9" font-weight="700">SEPOLIA</text>
+<text x="204.0" y="157" font-family="Consolas, monospace" font-size="10" fill="#8b93a1">NET</text>
+<rect x="248.0" y="140" width="87.6" height="26" rx="6" fill="#161b22" stroke="#2ea3c9" stroke-width="1" stroke-opacity="0.4"/>
+<text x="258.0" y="157" font-family="Consolas, monospace" font-size="11.5" fill="#2ea3c9" font-weight="700">4</text>
+<text x="272.6" y="157" font-family="Consolas, monospace" font-size="10" fill="#8b93a1">PARAMS</text>
+<line x1="24" y1="182" x2="416" y2="182" stroke="#242a33" stroke-width="1"/>
+<circle cx="28" cy="200" r="2.5" fill="#2ea3c9"/>
+<text x="38" y="204" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#c3c9d3">Smart-contract workflows on Ethereum (Sepolia)</text>
+<circle cx="28" cy="221" r="2.5" fill="#2ea3c9"/>
+<text x="38" y="225" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#c3c9d3">Credit-risk engine across 4 lending parameters</text>
+<rect x="24" y="240" width="54.0" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="51.0" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">React</text>
+<rect x="85.0" y="240" width="68.4" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="119.2" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Node.js</text>
+<rect x="160.4" y="240" width="75.6" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="198.2" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Solidity</text>
+<rect x="243.0" y="240" width="68.4" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="277.2" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Web3.js</text>
+<rect x="318.4" y="240" width="68.4" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="352.59999999999997" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">MongoDB</text>
+<line x1="24" y1="272" x2="416" y2="272" stroke="#242a33" stroke-width="1"/>
+<text x="416" y="288" text-anchor="end" font-family="Consolas, monospace" font-size="11" fill="#2ea3c9" font-weight="700">VIEW LIVE →</text>
+</g>
+</svg>

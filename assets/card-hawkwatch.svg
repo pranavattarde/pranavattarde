@@ -1,0 +1,70 @@
+<svg width="100%" viewBox="0 0 440 296" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="cardbg-card-hawkwatch" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#12161d"/>
+    <stop offset="100%" stop-color="#0b0e13"/>
+  </linearGradient>
+  <linearGradient id="border-card-hawkwatch" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#d8b355" stop-opacity="0.95"/>
+    <stop offset="45%" stop-color="#2a323d" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#d8b355" stop-opacity="0.4"/>
+  </linearGradient>
+  <filter id="shadow-card-hawkwatch" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.55"/>
+  </filter>
+  <linearGradient id="shine-card-hawkwatch" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#d8b355" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#d8b355" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#d8b355" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots-card-hawkwatch" width="16" height="16" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.7" fill="#d8b355" opacity="0.35"/>
+  </pattern>
+  <clipPath id="clip-card-hawkwatch"><rect x="1" y="1" width="438" height="294" rx="16"/></clipPath>
+</defs>
+<rect x="6" y="10" width="428" height="282" rx="16" fill="#000" opacity="0.001" filter="url(#shadow-card-hawkwatch)"/>
+<rect x="0.5" y="0.5" width="439" height="295" rx="17" fill="url(#border-card-hawkwatch)"/>
+<rect x="2" y="2" width="436" height="292" rx="15" fill="url(#cardbg-card-hawkwatch)"/>
+<g clip-path="url(#clip-card-hawkwatch)">
+<rect x="0" y="0" width="440" height="296" fill="url(#dots-card-hawkwatch)" opacity="0.5"/>
+<rect x="-180" y="0" width="180" height="3" fill="url(#shine-card-hawkwatch)">
+<animate attributeName="x" begin="0s" dur="5s" repeatCount="indefinite" values="-180;440;-180"/>
+</rect>
+<circle cx="24" cy="24" r="24" fill="#d8b355" opacity="0.1" transform="translate(20,20)"/>
+<g transform="translate(24,24)">
+  <path d="M -17 0 Q 0 -13 17 0 Q 0 13 -17 0 Z" fill="none" stroke="#d8b355" stroke-width="2.2"/>
+  <circle cx="0" cy="0" r="5.5" fill="#d8b355"/>
+  <circle cx="0" cy="0" r="9.5" fill="none" stroke="#d8b355" stroke-width="1" opacity="0.5"/>
+</g>
+<text x="80" y="38" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="22" fill="#eef1f5">HawkWatch</text>
+<rect x="80" y="46" width="68.0" height="18" rx="9" fill="#8b93a1" opacity="0.15"/>
+<circle cx="93" cy="55" r="3" fill="#8b93a1"/>
+<text x="101" y="59" font-family="Consolas, monospace" font-size="10.5" fill="#8b93a1" font-weight="700">CODE</text>
+<text x="24" y="90" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#a7afbb">AI-powered secure exam platform with multimodal</text>
+<text x="24" y="109" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#a7afbb">proctoring and behavioral risk scoring.</text>
+<rect x="24" y="140" width="104.0" height="26" rx="6" fill="#161b22" stroke="#d8b355" stroke-width="1" stroke-opacity="0.4"/>
+<text x="34" y="157" font-family="Consolas, monospace" font-size="11.5" fill="#d8b355" font-weight="700">4</text>
+<text x="48.6" y="157" font-family="Consolas, monospace" font-size="10" fill="#8b93a1">CV PIPES</text>
+<rect x="136.0" y="140" width="136.79999999999998" height="26" rx="6" fill="#161b22" stroke="#d8b355" stroke-width="1" stroke-opacity="0.4"/>
+<text x="146.0" y="157" font-family="Consolas, monospace" font-size="11.5" fill="#d8b355" font-weight="700">REAL-TIME</text>
+<text x="229.39999999999998" y="157" font-family="Consolas, monospace" font-size="10" fill="#8b93a1">MODE</text>
+<rect x="280.79999999999995" y="140" width="71.19999999999999" height="26" rx="6" fill="#161b22" stroke="#d8b355" stroke-width="1" stroke-opacity="0.4"/>
+<text x="290.79999999999995" y="157" font-family="Consolas, monospace" font-size="11.5" fill="#d8b355" font-weight="700">2</text>
+<text x="305.4" y="157" font-family="Consolas, monospace" font-size="10" fill="#8b93a1">DASH</text>
+<line x1="24" y1="182" x2="416" y2="182" stroke="#242a33" stroke-width="1"/>
+<circle cx="28" cy="200" r="2.5" fill="#d8b355"/>
+<text x="38" y="204" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#c3c9d3">4 CV pipelines: face, liveness, pose, activity</text>
+<circle cx="28" cy="221" r="2.5" fill="#d8b355"/>
+<text x="38" y="225" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#c3c9d3">Explainable real-time malpractice risk engine</text>
+<rect x="24" y="240" width="54.0" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="51.0" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">React</text>
+<rect x="85.0" y="240" width="68.4" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="119.2" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Node.js</text>
+<rect x="160.4" y="240" width="126.0" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="223.4" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">AWS Rekognition</text>
+<rect x="293.4" y="240" width="82.8" height="22" rx="11" fill="#1a1f27" stroke="#2a323d" stroke-width="1"/>
+<text x="334.79999999999995" y="255" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">MediaPipe</text>
+<line x1="24" y1="272" x2="416" y2="272" stroke="#242a33" stroke-width="1"/>
+<text x="416" y="288" text-anchor="end" font-family="Consolas, monospace" font-size="11" fill="#d8b355" font-weight="700">VIEW CODE →</text>
+</g>
+</svg>

@@ -1,0 +1,63 @@
+<svg width="100%" viewBox="0 0 900 474" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="abg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#12161d"/>
+    <stop offset="100%" stop-color="#0b0e13"/>
+  </linearGradient>
+  <linearGradient id="ashine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#d8b355" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#d8b355" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#d8b355" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="1" y="1" width="898" height="472" rx="14" fill="url(#abg)" stroke="#242a33" stroke-width="1"/>
+<rect x="-220" y="0" width="220" height="3" fill="url(#ashine)"><animate attributeName="x" begin="0s" dur="6.5s" repeatCount="indefinite" values="-220;900;-220"/></rect>
+<text x="24" y="30" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="17" fill="#eef1f5">Podium Finishes</text>
+<text x="24" y="48" font-family="Consolas, monospace" font-size="10.5" fill="#5a6270">RACE RESULTS — CAREER TO DATE</text>
+<line x1="24" y1="56" x2="876" y2="56" stroke="#242a33"/>
+<rect x="12" y="76" width="876" height="48" rx="10" fill="#d8b355" opacity="0.14"/>
+<rect x="12" y="76" width="3" height="48" rx="1.5" fill="#d8b355"/>
+<circle cx="34" cy="100.0" r="4" fill="#d8b355"><animate attributeName="opacity" begin="0.0s" dur="1.6s" repeatCount="indefinite" values="1;0.3;1"/></circle>
+<text x="54" y="98" font-family="Consolas, monospace" font-size="11" fill="#5a6270">RD 01</text>
+<text x="54" y="116" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#eef1f5">Smart India Hackathon</text>
+<text x="330" y="116" font-family="Consolas, monospace" font-size="12.5" fill="#d8b355">National Nominee</text>
+<text x="864" y="110" font-size="20" text-anchor="middle">🏆</text>
+<rect x="12" y="132" width="876" height="48" rx="10" fill="#b8bec9" opacity="0.07"/>
+<rect x="12" y="132" width="3" height="48" rx="1.5" fill="#b8bec9"/>
+<circle cx="34" cy="156.0" r="4" fill="#b8bec9"><animate attributeName="opacity" begin="0.3s" dur="1.6s" repeatCount="indefinite" values="1;0.3;1"/></circle>
+<text x="54" y="154" font-family="Consolas, monospace" font-size="11" fill="#5a6270">RD 02</text>
+<text x="54" y="172" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#eef1f5">Project Morpheus</text>
+<text x="330" y="172" font-family="Consolas, monospace" font-size="12.5" fill="#b8bec9">Finalist — National-Level Hackathon</text>
+<text x="864" y="166" font-size="20" text-anchor="middle">🥈</text>
+<rect x="12" y="188" width="876" height="48" rx="10" fill="#6FA9C2" opacity="0.07"/>
+<rect x="12" y="188" width="3" height="48" rx="1.5" fill="#6FA9C2"/>
+<circle cx="34" cy="212.0" r="4" fill="#6FA9C2"><animate attributeName="opacity" begin="0.6s" dur="1.6s" repeatCount="indefinite" values="1;0.3;1"/></circle>
+<text x="54" y="210" font-family="Consolas, monospace" font-size="11" fill="#5a6270">RD 03</text>
+<text x="54" y="228" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#eef1f5">MHT-CET</text>
+<text x="330" y="228" font-family="Consolas, monospace" font-size="12.5" fill="#6FA9C2">97.75 Percentile</text>
+<text x="864" y="222" font-size="20" text-anchor="middle">📊</text>
+<rect x="12" y="244" width="876" height="48" rx="10" fill="#a06fd6" opacity="0.07"/>
+<rect x="12" y="244" width="3" height="48" rx="1.5" fill="#a06fd6"/>
+<circle cx="34" cy="268.0" r="4" fill="#a06fd6"><animate attributeName="opacity" begin="0.8999999999999999s" dur="1.6s" repeatCount="indefinite" values="1;0.3;1"/></circle>
+<text x="54" y="266" font-family="Consolas, monospace" font-size="11" fill="#5a6270">RD 04</text>
+<text x="54" y="284" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#eef1f5">Samsung Campus Ambassador</text>
+<text x="330" y="284" font-family="Consolas, monospace" font-size="12.5" fill="#a06fd6">Led 75+ member team, CEC · VIIT</text>
+<text x="864" y="278" font-size="20" text-anchor="middle">👥</text>
+<rect x="12" y="300" width="876" height="48" rx="10" fill="#42e070" opacity="0.07"/>
+<rect x="12" y="300" width="3" height="48" rx="1.5" fill="#42e070"/>
+<circle cx="34" cy="324.0" r="4" fill="#42e070"><animate attributeName="opacity" begin="1.2s" dur="1.6s" repeatCount="indefinite" values="1;0.3;1"/></circle>
+<text x="54" y="322" font-family="Consolas, monospace" font-size="11" fill="#5a6270">RD 05</text>
+<text x="54" y="340" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#eef1f5">Freelance Web Development</text>
+<text x="330" y="340" font-family="Consolas, monospace" font-size="12.5" fill="#42e070">₹25,000 earned — client project</text>
+<text x="864" y="334" font-size="20" text-anchor="middle">💼</text>
+<line x1="24" y1="364" x2="876" y2="364" stroke="#242a33"/>
+<text x="24" y="384" font-family="Consolas, monospace" font-size="10.5" letter-spacing="1.5" fill="#5a6270">CERTIFICATIONS</text>
+<rect x="24" y="394" width="233.70000000000002" height="26" rx="13" fill="#161b22" stroke="#3a4048" stroke-width="1"/>
+<text x="140.85000000000002" y="411" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">IBM: Generative AI Fundamentals</text>
+<rect x="265.70000000000005" y="394" width="220.3" height="26" rx="13" fill="#161b22" stroke="#3a4048" stroke-width="1"/>
+<text x="375.85" y="411" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Coursera: Fundamentals of NLP</text>
+<rect x="494.00000000000006" y="394" width="287.3" height="26" rx="13" fill="#161b22" stroke="#3a4048" stroke-width="1"/>
+<text x="637.6500000000001" y="411" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">Coursera: Tableau Business Intelligence</text>
+<rect x="24" y="428" width="227.0" height="26" rx="13" fill="#161b22" stroke="#3a4048" stroke-width="1"/>
+<text x="137.5" y="445" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" fill="#9aa3b0">LinkedIn: Six Sigma Green Belt</text>
+</svg>
