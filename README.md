@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/f1-grid-start.svg" width="100%" alt="lights out and away we go"/>
-
-<h1>Pranav Attarde</h1>
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/hero-name.svg" width="100%" alt="Pranav Attarde"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=1200&color=6FA9C2&center=true&vCenter=true&width=560&height=30&lines=Building+full-stack+products+that+ship;Backend+systems+%2B+AI-powered+apps;Currently+racing+on+FrontWing+%F0%9F%8F%81" alt="typing"/>
+
+<br/>
 
 <a href="https://www.linkedin.com/in/pranavattarde/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=161b22" /></a>
 <a href="https://github.com/pranavattarde"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=161b22" /></a>
@@ -13,7 +13,9 @@
 
 </div>
 
+<br/>
 <img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
+<br/>
 
 ### About
 
@@ -23,85 +25,77 @@ Computer Science (AI & ML) undergrad at VIIT, Pune — building full-stack produ
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,python,js,ts,cpp&theme=dark&perline=5"/>
+<br/>
 <img src="https://skillicons.dev/icons?i=react,nodejs,express,fastapi,tailwind&theme=dark&perline=5"/>
+<br/>
 <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,docker&theme=dark&perline=5"/>
+<br/>
 <img src="https://skillicons.dev/icons?i=aws,git,github,figma,solidity&theme=dark&perline=5"/>
 </div>
 
+<br/>
 <img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
+<br/>
+
+### 🏁 The Season
+
+*Lights out, and the year begins — every green square below is a real commit.*
+
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/f1-contribution-track.svg" width="100%" alt="contribution graph with F1 start"/>
+
+<br/>
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
+<br/>
 
 ### Featured Builds
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-**🏎️ FrontWing** — [live](https://frontwing.pancred.space)
-Multi-agent F1 analytics platform for strategy simulation and natural-language race investigation.
-- 5-agent orchestration: intent classification, adaptive tool routing, RAG
-- 6 Dockerized microservices, dual-LLM failover (Gemini/Groq)
-
-`React` `FastAPI` `PostgreSQL` `Redis` `WebSockets`
-
-</td>
-<td width="50%" valign="top">
-
-**💸 PanCred** — [live](https://pancred.space)
-Decentralized microfinance platform — P2P lending, EMI tracking, on-chain repayment validation.
-- Smart-contract workflows on Ethereum (Sepolia)
-- Credit-risk scoring engine across 4 lending parameters
-
-`React` `Node.js` `Solidity` `Web3.js` `MongoDB`
-
-</td>
+<td width="50%"><a href="https://frontwing.pancred.space"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-frontwing.svg" width="100%"/></a></td>
+<td width="50%"><a href="https://pancred.space"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-pancred.svg" width="100%"/></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-**🦅 HawkWatch** — [code](https://github.com/pranavattarde/HawkWatch)
-AI-powered secure exam platform with multimodal proctoring.
-- 4 CV pipelines: face recognition, liveness, head pose, activity
-- Explainable real-time malpractice risk engine
-
-`React` `Node.js` `AWS Rekognition` `MediaPipe` `JWT`
-
-</td>
-<td width="50%" valign="top">
-
-**🎮 LS-Reborn Portal** — [live](https://lsreborn-project.netlify.app)
-Full-stack community platform automating player onboarding and access control.
-- Discord OAuth2 + JWT-based RBAC across 3 roles
-- AI applicant scoring and duplicate-ticket detection
-
-`React` `Node.js` `MySQL` `Discord API` `Python`
-
-</td>
+<td width="50%"><a href="https://github.com/pranavattarde/HawkWatch"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-hawkwatch.svg" width="100%"/></a></td>
+<td width="50%"><a href="https://lsreborn-project.netlify.app"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-lsreborn.svg" width="100%"/></a></td>
 </tr>
 </table>
 
-<sub>Also shipped: **Society Maintenance Management** (AI complaint triage, RBAC, Docker) · **SR Property Advisors** (real-estate CRM/ERP) · **Bias Mitigation of LLMs** (causal-ML research) — all on [GitHub](https://github.com/pranavattarde?tab=repositories).</sub>
+Also shipped: **Society Maintenance Management** (AI complaint triage, RBAC, Docker) · **SR Property Advisors** (real-estate CRM/ERP) · **Bias Mitigation of LLMs** (causal-ML research) — all on [GitHub](https://github.com/pranavattarde?tab=repositories).
 
+<br/>
 <img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
+<br/>
 
 ### Stats
 
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=pranavattarde&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=6FA9C2&icon_color=6FA9C2"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=pranavattarde&theme=dark&hide_border=true&background=0D1117&ring=6FA9C2&fire=E6482E"/>
-</div>
-
-<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
-
-### Podium Finishes
-
-- 🏆 Smart India Hackathon — National Nominee
-- 🥈 Finalist, Project Morpheus (National-Level Hackathon)
-- 📊 97.75 percentile, MHT-CET
-- 👥 Samsung Campus Ambassador · led 75+ member team at CEC, VIIT
-- 💼 ₹25,000 earned via freelance web development
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/telemetry-stats.svg" width="100%" alt="stats"/>
 
 <br/>
 
 <div align="center">
-<sub>github.com/pranavattarde &nbsp;·&nbsp; built between semesters and race weekends 🏁</sub>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranavattarde&theme=dark&hide_border=true&bg_color=0D1117&title_color=6FA9C2&layout=compact"/>
+</div>
+
+<br/>
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
+<br/>
+
+### 🏆 Podium Finishes
+
+| | |
+|---|---|
+| 🏆 Smart India Hackathon | National Nominee |
+| 🥈 Project Morpheus | Finalist, National-Level Hackathon |
+| 📊 MHT-CET | 97.75 percentile |
+| 👥 Samsung Campus Ambassador | Led 75+ member team at CEC, VIIT |
+| 💼 Freelance | ₹25,000 earned building a client website |
+
+<br/>
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/checkered-divider.svg" width="100%" alt=""/>
+<br/>
+
+<div align="center">
+
+**github.com/pranavattarde** — built between semesters and race weekends 🏁
+
 </div>
