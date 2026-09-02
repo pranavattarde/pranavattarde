@@ -13,7 +13,7 @@
 
 <br/><br/>
 
-<sub>ABOUT · TECH ARSENAL · THE SEASON · FEATURED BUILDS · TELEMETRY · PODIUM</sub>
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/quick-stats-ribbon.svg" width="70%" alt="quick stats"/>
 
 </div>
 
@@ -37,7 +37,7 @@ I like building things where the backend does something genuinely hard — orche
 
 ### 🏁 The Season
 
-*Lights out, and the year begins. Every square is a real commit — watch the grid as the cars take their lap.*
+*Lights out, and the year begins. Every square is a real commit — watch the cars drive straight through the grid, full width, on loop.*
 
 <img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/f1-contribution-track.svg" width="100%" alt="contribution graph with F1 start"/>
 
@@ -47,16 +47,9 @@ I like building things where the backend does something genuinely hard — orche
 
 ### Featured Builds
 
-<table>
-<tr>
-<td width="50%"><a href="https://frontwing.pancred.space"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-frontwing.svg" width="100%"/></a></td>
-<td width="50%"><a href="https://pancred.space"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-pancred.svg" width="100%"/></a></td>
-</tr>
-<tr>
-<td width="50%"><a href="https://github.com/pranavattarde/HawkWatch"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-hawkwatch.svg" width="100%"/></a></td>
-<td width="50%"><a href="https://lsreborn-project.netlify.app"><img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/card-lsreborn.svg" width="100%"/></a></td>
-</tr>
-</table>
+*One project takes the spotlight at a time — the other three sit wired in behind it, and they rotate through continuously.*
+
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/showcase-carousel.svg" width="100%" alt="rotating project showcase"/>
 
 Also shipped: **Society Maintenance Management** (AI complaint triage, RBAC, Docker) · **SR Property Advisors** (real-estate CRM/ERP) · **Bias Mitigation of LLMs** (causal-ML research) — all on [GitHub](https://github.com/pranavattarde?tab=repositories).
 
