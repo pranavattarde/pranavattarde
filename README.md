@@ -45,7 +45,7 @@ risk in real time, moving money or trust between systems that don't inherently a
 
 ## `~/` toolbox
 
-<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/tech-arsenal.svg" width="100%" alt="tech stack">
+<img src="https://raw.githubusercontent.com/pranavattarde/pranavattarde/main/assets/tech-arsenal-v2.svg" width="100%" alt="tech stack">
 
 </div>
 
