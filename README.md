@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://github.com/pranavattarde">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=6FA9C2&center=true&vCenter=true&width=560&lines=Pranav+Attarde;Full-Stack+%2B+AI%2FML+Engineer;Building+FrontWing+%F0%9F%8F%81;01100011 01101111 01100100 01100101" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=6FA9C2&center=true&vCenter=true&width=560&lines=Pranav+Attarde;Full-Stack+%2B+AI%2FML+Engineer;Building+FrontWing+%F0%9F%8F%81;01100011+01101111+01100100+01100101" alt="typing banner">
 </a>
 
 <br/><br/>
