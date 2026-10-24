@@ -58,6 +58,14 @@ def text(value,x,y,size=17,color=MUTED,weight=400,anchor='start',spacing=0):
     return f'<text x="{x}" y="{y}" fill="{color}" font-family="Arial,Helvetica,sans-serif" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}" letter-spacing="{spacing}">{html.escape(str(value))}</text>'
 def line(x1,y1,x2,y2,color=LINE):return f'<path d="M{x1} {y1}H{x2}" stroke="{color}"/>' if y1==y2 else f'<path d="M{x1} {y1}L{x2} {y2}" stroke="{color}"/>'
 def rect(x,y,w,h,fill=PANEL,stroke=None):return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{fill}"'+(f' stroke="{stroke}"' if stroke else '')+'/>'
+def technology_icon(entry):
+    icon=entry['icon']
+    if entry['name']=='AWS':
+        icon=icon.replace('#eee9df','#FF9900')
+    # Keep dark brand marks legible without changing their original colors.
+    if entry['name'] in {'Java','Express','NumPy','Pandas','Solidity'}:
+        icon=f'<circle cx="12" cy="12" r="15" fill="{IVORY}"/>'+icon
+    return icon
 def document(name,height,title,content,width=900,styles=''):
     (ASSETS/name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc"><title id="title">{html.escape(title)}</title><desc id="desc">Pranav Attarde. Portfolio colors: charcoal, warm ivory and muted racing red.</desc><style>text{{font-kerning:normal}}@media(prefers-reduced-motion:reduce){{.motion{{animation:none!important}}}}{styles}</style>{rect(0,0,width,height,INK)}{content}</svg>',encoding='utf-8')
 
@@ -79,14 +87,14 @@ for i,(value,label) in enumerate([('409','CONTRIBUTIONS'),('12','REPOSITORIES'),
 quick+=line(30,118,870,118)
 document('paddock-quick-stats.svg',124,'Saved profile snapshot: 409 contributions, 12 repositories, 5 live projects, 40 day streak, 4 certifications.',quick)
 
-# Recognizable stack marks, larger labels and three smooth continuous strips.
+# Original-color stack marks, larger labels and three smooth continuous strips.
 content=text('TOOLS OF THE TRADE',30,35,14,RED,600,spacing=1.6)
 content+=text('LANGUAGES / PRODUCTS / SYSTEMS',870,35,12,MUTED,anchor='end',spacing=.7)+line(30,55,870,55)
 styles=''
 for i,row in enumerate(DATA['tech']):
     y=82+i*91; full=0;pieces=''
     for entry in row:
-        icon=re.sub(r'#[0-9A-Fa-f]{3,8}\b',IVORY,entry['icon'])
+        icon=technology_icon(entry)
         pieces+=f'<g transform="translate({full+5} 3) scale(1.25)">{icon}</g>'+text(entry['name'],full+50,28,21,IVORY,500)
         full+=max(158,len(entry['name'])*12+88)
         pieces+=line(full-28,7,full-28,31)
@@ -183,7 +191,7 @@ styles=''
 for i,row in enumerate(DATA['tech']):
     y=82+i*91;full=0;pieces=''
     for entry in row:
-        icon=re.sub(r'#[0-9A-Fa-f]{3,8}\b',IVORY,entry['icon'])
+        icon=technology_icon(entry)
         pieces+=f'<g transform="translate({full+5} 3) scale(1.25)">{icon}</g>'+text(entry['name'],full+50,28,21,IVORY,500)
         full+=max(158,len(entry['name'])*12+88);pieces+=line(full-28,7,full-28,31)
     content+=f'<defs><clipPath id="mstrip{i}"><rect x="24" y="{y}" width="432" height="55"/></clipPath></defs><g clip-path="url(#mstrip{i})"><g transform="translate(24 {y})"><g class="motion strip{i}">{pieces}<g transform="translate({full} 0)">{pieces}</g></g></g></g>'+line(24,y+66,456,y+66)
